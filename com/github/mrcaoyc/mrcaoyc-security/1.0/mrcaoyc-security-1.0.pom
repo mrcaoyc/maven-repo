@@ -5,4 +5,12 @@
   <groupId>com.github.mrcaoyc</groupId>
   <artifactId>mrcaoyc-security</artifactId>
   <version>1.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.mrcaoyc</groupId>
+      <artifactId>mrcaoyc-common</artifactId>
+      <version>1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
 </project>
