@@ -7,6 +7,24 @@
   <version>1.0</version>
   <dependencies>
     <dependency>
+      <groupId>com.github.mrcaoyc</groupId>
+      <artifactId>mrcaoyc-common</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.mrcaoyc</groupId>
+      <artifactId>mrcaoyc-security</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.mrcaoyc</groupId>
+      <artifactId>mrcaoyc-starter-keygen</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter</artifactId>
       <version>2.1.3.RELEASE</version>
@@ -16,24 +34,6 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
       <version>2.1.3.RELEASE</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.mrcaoyc</groupId>
-      <artifactId>mrcaoyc-common</artifactId>
-      <version>1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.mrcaoyc</groupId>
-      <artifactId>mrcaoyc-security</artifactId>
-      <version>1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.mrcaoyc</groupId>
-      <artifactId>mrcaoyc-starter-keygen</artifactId>
-      <version>1.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
